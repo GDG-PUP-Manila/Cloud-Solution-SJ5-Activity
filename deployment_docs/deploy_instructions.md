@@ -14,8 +14,8 @@ This guide assumes you are working from **Google Cloud Console Cloud Shell** and
 If the repository is not already available in Cloud Shell, clone it first and move into the project root:
 
 ```bash
-git clone https://github.com/Justinroyse/gdgpup_cloudsol_sj5_activity
-cd gdgpup_cloudsol_sj5_activity
+git clone https://github.com/GDG-PUP-Manila/Cloud-Solution-SJ5-Activity
+cd Cloud-Solution-SJ5-Activity
 ```
 
 If Cloud Shell already opened inside the repository, you can skip the clone and just confirm you are at the project root before continuing.
