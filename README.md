@@ -1,5 +1,11 @@
 # GDG Founder's Edition Shirt Drop
 
+## Status / Handover
+
+Teaching lab for a flash-sale architecture on Google Cloud. Not a product.
+
+Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**. Outgoing CTO: Carlos Jerico Dela Torre.
+
 The GDG Founder's Edition Shirt Drop is a flash-sale app built to survive a burst of student traffic without overselling inventory.
 
 ## Mission
