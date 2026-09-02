@@ -4,7 +4,9 @@
 
 Teaching lab for a flash-sale architecture on Google Cloud. Not a product.
 
-Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**. Outgoing CTO: Carlos Jerico Dela Torre.
+Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
+
+Docs: [docs/state.md](docs/state.md) · [docs/index.md](docs/index.md) · [FLAGS.md](FLAGS.md) · [AGENTS.md](AGENTS.md) · [docs/deploy_instructions.md](docs/deploy_instructions.md)
 
 The GDG Founder's Edition Shirt Drop is a flash-sale app built to survive a burst of student traffic without overselling inventory.
 
@@ -60,10 +62,10 @@ If you used a custom domain, remove or update the DNS record separately.
 
 ## Contributors
 
-Teaching lab maintained for [GDG PUP Manila](https://gdgpup.org):
+This project is made possible by the GDG PUP community:
 
-| Role | Contributor |
+| Role | Name |
 | --- | --- |
-| Development | James Gabriele |
-| Development | Justin Royse L. Solomon |
-| CTO | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) (outgoing, historical) |
+| 💻 **Development** | [James Gabriele Torzar](https://www.linkedin.com/in/4regab/) - Cloud Solutions |
+| 💻 **Development** | [Justin Royse L. Solomon](https://www.linkedin.com/in/justin-royse-solomon) - Cloud Solutions |
+| 🚀 **CTO** | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) - Chief Technology Officer (2025-2026) |
