@@ -57,3 +57,13 @@ gcloud sql instances delete gdg-inventory-db
 ```
 
 If you used a custom domain, remove or update the DNS record separately.
+
+## Contributors
+
+Teaching lab maintained for [GDG PUP Manila](https://gdgpup.org):
+
+| Role | Contributor |
+| --- | --- |
+| Development | James Gabriele |
+| Development | Justin Royse L. Solomon |
+| CTO | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) (outgoing, historical) |
