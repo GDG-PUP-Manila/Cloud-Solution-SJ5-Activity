@@ -22,3 +22,9 @@ Owner: GDG PUP Technology (incoming CTO). Handover 2026-09-02.
 - Assume Cloud Shell, not local PowerShell, for deploy steps.
 - Always remind operators to shut down cloud resources after the lab to avoid cost (see FLAGS and README teardown).
 - Docs-only edits for handover; do not invent production product requirements.
+
+## FMD
+
+**Built on FMD philosophy (v1.31.0)** - INDEX / STATE / FLAGS control plane for humans and AI; no FMD engine install.
+
+Read order stays: docs/state.md then docs/index.md then FLAGS.md then task docs.
