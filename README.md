@@ -1,5 +1,10 @@
 # GDG Founder's Edition Shirt Drop
 
+[![Status: Teaching](https://img.shields.io/badge/Status-Teaching-blue)](docs/state.md)
+[![Stack: Google Cloud](https://img.shields.io/badge/Stack-Google%20Cloud-black)](#about)
+[![FMD philosophy: 1.31.0](https://img.shields.io/badge/FMD%20philosophy-1.31.0-blue)](AGENTS.md)
+
+
 Teaching lab for a flash-sale architecture on Google Cloud. Not a product.
 
 Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
@@ -9,6 +14,7 @@ The GDG Founder's Edition Shirt Drop is a flash-sale app built to survive a burs
 ## Table of Contents
 
 - [About](#about)
+- [Start here](#start-here)
 - [Mission](#mission)
 - [What's Included](#whats-included)
 - [Quick start](#quick-start)
@@ -22,6 +28,12 @@ The GDG Founder's Edition Shirt Drop is a flash-sale app built to survive a burs
 Teaching lab for a flash-sale architecture on Google Cloud. Students and operators practice Cloud Run, Cloud SQL, Cloud Storage, and a global HTTP Load Balancer in a shirt-drop scenario. Not a product launch.
 
 Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
+
+## Start here
+
+- **Humans:** this README, then [docs/state.md](docs/state.md)
+- **Agents:** [AGENTS.md](AGENTS.md) (state → index → FLAGS)
+- **Contributors:** table below
 
 ## Mission
 
@@ -87,10 +99,11 @@ If you used a custom domain, remove or update the DNS record separately.
 
 ## Contributors
 
-This project is made possible by the GDG PUP community:
+This project is made possible by the GDG PUP community.
 
-| Role | Name |
-| --- | --- |
-| 💻 **Development** | [James Gabriele Torzar](https://www.linkedin.com/in/4regab/) - Cloud Solutions |
-| 💻 **Development** | [Justin Royse L. Solomon](https://www.linkedin.com/in/justin-royse-solomon) - Cloud Solutions |
-| 🚀 **CTO** | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) - Chief Technology Officer (2025-2026) |
+| Name | Role | GitHub |
+| --- | --- | --- |
+| [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj) | Chief Technology Officer (2025-2026) | [@delatorrecj](https://github.com/delatorrecj) |
+| [James Gabriele Torzar](https://www.linkedin.com/in/4regab) | Cloud Solutions / Front End | [@4regab](https://github.com/4regab) |
+| [Justin Royse L. Solomon](https://www.linkedin.com/in/justin-royse-solomon) | Cloud Solutions / Front End | [@Justinroyse](https://github.com/Justinroyse) |
+
