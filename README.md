@@ -1,14 +1,27 @@
 # GDG Founder's Edition Shirt Drop
 
-## Status / Handover
-
 Teaching lab for a flash-sale architecture on Google Cloud. Not a product.
 
 Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
 
-Docs: [docs/state.md](docs/state.md) · [docs/index.md](docs/index.md) · [FLAGS.md](FLAGS.md) · [AGENTS.md](AGENTS.md) · [docs/deploy_instructions.md](docs/deploy_instructions.md)
-
 The GDG Founder's Edition Shirt Drop is a flash-sale app built to survive a burst of student traffic without overselling inventory.
+
+## Table of Contents
+
+- [About](#about)
+- [Mission](#mission)
+- [What's Included](#whats-included)
+- [Quick start](#quick-start)
+- [Operator Notes](#operator-notes)
+- [REQUIRED: Shutdown All Services to avoid additional costs](#required-shutdown-all-services-to-avoid-additional-costs)
+- [Documentation](#documentation)
+- [Contributors](#contributors)
+
+## About
+
+Teaching lab for a flash-sale architecture on Google Cloud. Students and operators practice Cloud Run, Cloud SQL, Cloud Storage, and a global HTTP Load Balancer in a shirt-drop scenario. Not a product launch.
+
+Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
 
 ## Mission
 
@@ -20,18 +33,20 @@ The deployment is built around five goals:
 4. Route traffic through a global HTTP Load Balancer.
 5. Keep the operator workflow simple enough to run from Google Cloud Console Cloud Shell.
 
-## What’s Included
+## What's Included
 
 - `docs/deploy_instructions.md` - the full Cloud Shell-first deployment guide.
 - Backend source for the Cloud Run API.
 - Frontend source for the static storefront.
 - Infrastructure steps for Cloud SQL, Cloud Storage, and Load Balancing.
 
-## Deployment Flow
+## Quick start
 
 1. Open **Google Cloud Console Cloud Shell**.
-2. Follow `docs/deploy_instructions.md` deploy from the repository root.
+2. Follow [docs/deploy_instructions.md](docs/deploy_instructions.md) from the repository root.
 3. Set the `postgres` password, deploy the API, update `frontend/script.js` with the API URL, then deploy the frontend and load balancer.
+
+This lab is Cloud Shell-first. Local PowerShell is not the intended path. Secrets and ops detail: [FLAGS.md](FLAGS.md) and [docs/state.md](docs/state.md).
 
 ## Operator Notes
 
@@ -59,6 +74,16 @@ gcloud sql instances delete gdg-inventory-db
 ```
 
 If you used a custom domain, remove or update the DNS record separately.
+
+## Documentation
+
+| Doc | Purpose |
+|-----|---------|
+| [State](docs/state.md) | Operate position, ownership, cold start |
+| [Index](docs/index.md) | Document manifest |
+| [FLAGS](FLAGS.md) | Improvement register |
+| [AGENTS](AGENTS.md) | Agent read order |
+| [Deploy instructions](docs/deploy_instructions.md) | Cloud Shell-first deployment guide |
 
 ## Contributors
 
